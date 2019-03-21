@@ -1,2 +1,2 @@
 # lyxcious.github.io
-Excercise 3
+Excercise 3 - My Homepage
