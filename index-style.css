@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+
+/*header*/
+.header {
+    background-color: rgb(115, 192, 236);
+    height: 55px;
+    width: 100%;
+}
+.header img {
+    margin: 2.5px 10px;
+    float: left;
+
+}
+.header ul {
+    text-align: right;
+}
+.header li {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-family: 'Luckiest Guy', cursive;
+}
+.header a {
+    text-decoration: none;
+    color: black;
+}
+.header a:hover {
+    color: rgba(0, 0, 0, 0.452);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+/*body*/
+body {
+    background-image: url("./img/background1.jpg");
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.opening {
+    height: 100px;
+    width: 1000px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.685);
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+.week-1 {
+    width: 1000px;
+    margin: 0 auto;
+}
+.mo-1, .tu-1, .we-1, .th-1 {
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.685);
+}
+.fr-1 {
+    background-color: rgba(255, 255, 255, 0.685);
+}
+.mo-1 h2, .tu-1 h2, .we-1 h2, .th-1 h2, .fr-1 h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    padding-top: 15px;
+}
+.mo-1 p, .tu-1 p, .we-1 p, .th-1 p, .fr-1 p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Sniglet', cursive;
+    padding: 0 15px;
+    padding-bottom: 15px;
+}
+
+/*footer*/
+.quote {
+    height: 50px;
+    width: 100%;
+    background-color:#000;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Sniglet', cursive;
+}
