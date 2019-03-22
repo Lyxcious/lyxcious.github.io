@@ -9,7 +9,7 @@ html {
 
 /*header*/
 .header {
-    background-color: rgb(115, 192, 236);
+    background-color: #EFD1B8;
     height: 55px;
     width: 100%;
 }
@@ -38,12 +38,11 @@ html {
 
 /*body*/
 body {
-    background-image: url("./img/background1.jpg");
-    background-size: cover;
+    background-color: #67D2C6;
     min-height: 100%;
     position: relative;
-    margin: 0;
     padding-bottom: 50px;
+    overflow-y: scroll;
 }
 .opening {
     height: 100px;
@@ -54,7 +53,9 @@ body {
     background-color: rgba(255, 255, 255, 0.685);
     font-size: 30px;
     font-family: 'Lobster', cursive;
+    border-radius: 20px;
 }
+
 .about {
     width: 1000px;
     margin: 0 auto;
@@ -62,6 +63,7 @@ body {
 .bio, .sm {
     margin: 10px auto;
     background-color: rgba(255, 255, 255, 0.685);
+    border-radius: 20px;
 }
 .bio h2, .sm h2 {
     text-align: center;
