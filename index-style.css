@@ -55,29 +55,43 @@ body {
     font-size: 30px;
     font-family: 'Lobster', cursive;
 }
-.week-1 {
+.container {
     width: 1000px;
     margin: 0 auto;
+    border: 1px solid blue;
 }
-.mo-1, .tu-1, .we-1, .th-1 {
+.phase {
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.685);
+    text-align: left;
+    font-size: 38px;
+    font-family: 'Lobster', cursive;
+}
+.week {
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.685);
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+
+.day-1 {
     margin: 10px auto;
     background-color: rgba(255, 255, 255, 0.685);
 }
-.fr-1 {
-    background-color: rgba(255, 255, 255, 0.685);
-}
-.mo-1 h2, .tu-1 h2, .we-1 h2, .th-1 h2, .fr-1 h2 {
+.day-1 h2 {
     text-align: center;
     font-size: 30px;
     font-family: 'Lobster', cursive;
     padding-top: 15px;
 }
-.mo-1 p, .tu-1 p, .we-1 p, .th-1 p, .fr-1 p {
+.day-1 p {
     text-align: justify;
     font-size: 20px;
     font-family: 'Sniglet', cursive;
     padding: 0 15px;
     padding-bottom: 15px;
+
 }
 
 /*footer*/
