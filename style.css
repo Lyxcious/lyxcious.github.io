@@ -52,11 +52,11 @@ body {
     flex: 1 0.6 auto;
     height: 100%;
     overflow-y: scroll;
+    overflow-x: scroll;
 }
 .opening {
     height: 100px;
-    min-width: 800px;
-    max-width: 1000px;
+    width: 1000px;
     text-align: center;
     padding: 10px 0;
     margin: 0 auto;
@@ -66,8 +66,7 @@ body {
     border-radius: 20px;
 }
 .container {
-    min-width: 800px;
-    max-width: 1000px;
+    width: 1000px;
     margin: 0 auto;
 }
 
