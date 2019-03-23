@@ -12,6 +12,7 @@ html {
     background-color: rgb(255, 228, 206);
     height: 80px;
     width: 100%;
+
 }
 .header img {
     margin: 2.5px 10px;
@@ -57,7 +58,10 @@ body {
     font-family: 'Lobster', cursive;
     border-radius: 20px;
 }
-
+.main-content {
+    position: relative;
+    top:
+}
 .container {
     width: 1000px;
     margin: 0 auto;
