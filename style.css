@@ -3,8 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
+html, body {
     height: 100%;
+}
+/*BODY*/
+body {
+    background-image: url(./img/background1.jpg);
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 50px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 /*HEADER*/
@@ -12,12 +22,11 @@ html {
     background-color: rgb(255, 228, 206);
     height: 80px;
     width: 100%;
-
+    flex: 0 0 auto;
 }
 .header img {
     margin: 2.5px 10px;
     float: left;
-
 }
 .header ul {
     text-align: right;
@@ -37,16 +46,13 @@ html {
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 
-/*BODY*/
-body {
-    background-image: url(./img/background1.jpg);
-    background-size: cover;
-    min-height: 100%;
+/*CONTENT*/
+.main-content {
     position: relative;
-    padding-bottom: 50px;
+    flex: 1 0.6 auto;
+    height: 100%;
     overflow-y: scroll;
 }
-/*CONTENT*/
 .opening {
     height: 100px;
     width: 1000px;
@@ -58,14 +64,12 @@ body {
     font-family: 'Lobster', cursive;
     border-radius: 20px;
 }
-.main-content {
-    position: relative;
-    top:
-}
 .container {
     width: 1000px;
     margin: 0 auto;
 }
+
+/*Phase Dropdown*/
 .phase {
     margin: 10px auto;
     background-color: rgba(103, 210, 198, 0.5);
@@ -74,11 +78,9 @@ body {
     font-family: 'Lobster', cursive;
     border-radius: 20px;
 }
-/*Phase Dropdown*/
 .week {
     display: none;
 }
-
 .phase input{
     cursor: pointer;
     opacity: 0;
@@ -87,7 +89,6 @@ body {
     height: 70px;
     position: absolute;
 }
-
 .phase input[type=checkbox]:checked~.week {
     display: inline-block;
     background-color: rgba(103, 210, 198, 0.4);
@@ -104,7 +105,6 @@ body {
 .day {
     display: none;
 }
-
 .week input{
     cursor: pointer;
     opacity: 0;
@@ -113,7 +113,6 @@ body {
     height: 60px;
     position: absolute;
 }
-
 .week input[type=checkbox]:checked~.day {
     display: inline-block;
 }
@@ -126,12 +125,9 @@ body {
     margin: auto;
     position: relative;
 }
-
 .entree {
     display: none;
-
 }
-
 .day input{
     cursor: pointer;
     opacity: 0;
@@ -139,7 +135,6 @@ body {
     height: 55px;
     position: absolute;
 }
-
 .day input[type=checkbox]:checked~.entree {
     overflow: hidden;
     display: block;
@@ -157,7 +152,6 @@ body {
     border-bottom-right-radius: 15px;
     border: 5px solid rgb(39, 134, 158);
 }
-
 .day label {
     border-radius: 15px;
     background-color: rgb(161, 235, 226, 0.7);
@@ -169,7 +163,6 @@ body {
     margin: 0 5px;
     border: 5px solid rgb(39, 134, 158);
 }
-
 .day input[type=checkbox]:checked~label{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -229,14 +222,9 @@ td {
 
 /*FOOTER*/
 .quote {
-    height: 50px;
-    width: 100%;
     background-color:#000;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
     color: white;
+    width: 100%;
     height: 50px;
     text-align: center;
     padding-top: 15px;
