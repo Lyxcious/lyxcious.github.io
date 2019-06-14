@@ -21,7 +21,7 @@ body {
     background-color: rgb(255, 228, 206);
     height: 80px;
     width: 100%;
-    flex: 0 0 auto;
+    flex: ;
 }
 .header img {
     margin: 2.5px 10px;
